@@ -1,4 +1,5 @@
 import ThemedText from "@/components/ThemedText";
+import { Link } from "expo-router";
 import { StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -8,12 +9,13 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <ThemedText variant="headline" color="graywhite">NBA YA MBINZA</ThemedText>
+      <Link href={{pathname : "/patedex/[id]" , params : {id : "3"}}}>Go to Players</Link>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: "#FF0000" , flex : 1 },
+  container: { backgroundColor: "#ff3c00ff" , flex : 0 },
 });
 
 /**
