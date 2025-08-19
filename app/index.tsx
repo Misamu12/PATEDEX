@@ -1,15 +1,13 @@
-import { Text, View } from "react-native";
-import { StyleSheet } from "react-native";
-import { Link } from "expo-router";
-import { SafeAreaView } from "react-native-safe-area-context";
 import ThemedText from "@/components/ThemedText";
+import { StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
 
-{/**  const color = useThemeColors(); */}
+  // const color = useThemeColors();
   return (
     <SafeAreaView style={styles.container}>
-     <ThemedText variant="headline" color="graywhite">Patedex</ThemedText>
+      <ThemedText variant="headline" color="graywhite">NBA YA MBINZA</ThemedText>
     </SafeAreaView>
   );
 }
