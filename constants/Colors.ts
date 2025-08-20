@@ -1,15 +1,19 @@
-const tintColorLight = "#DC0A2D";
-const tintColorDark = "#fff";
-
 export const Colors = {
     light: {
-    tint: tintColorLight,
-    gray: {
-      dark: "#212121",
-      medium: "#666666",
-      light: "#E0E0E0",
-      background: "#EFEFEF",
-      white: "#FFFFFF",
+      tint : "#DC0A2D",
+      grayDark: "#212121",
+      grayMedium: "#666666",
+      grayLight: "#E0E0E0",
+      grayBackground: "#EFEFEF",
+      graywhite: "#FFFFFF",
+    },
+    dark: {
+        tint : "#DC0A2D",
+        grayDark : "#212121",
+        grayMedium : "#757575",
+        grayLight: "#E0E0E0",
+        grayBackground : "#F5F5F5", 
+        grayWhite : "#FFFFFF"
     },
     type: {
       bug: "#A7B723",
@@ -30,13 +34,5 @@ export const Colors = {
       rock: "#B69E31",
       steel: "#B7B9D0",
       water: "#6493EB",
-    } as Record<string, string>, 
-  },
-    dark: {
-        tint : "#DC0A2D",
-        grayDark : "#212121",
-        grayMedium : "#757575",
-        grayBackground : "#F5F5F5", 
-        grayWhite : "#FFFFFF"
     }
 }
