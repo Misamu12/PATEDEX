@@ -4,12 +4,12 @@ export default function RootLayout() {
   return (
    <Stack
         screenOptions={{
-           animation: "slide_from_right",
-           animationDuration: 1000,
+           animation: "slide_from_right", // scroll horizontally
+           animationDuration: 1000, // durer en millisecondes
            contentStyle: {
-              backgroundColor: "transparent",
+              backgroundColor: "transparent", // pour le fond transparent
            },
-           headerShown: false,
+           headerShown: false, // pour ne pas afficher l'en-tête
         }}
 >
    <Stack.Screen name="index" />

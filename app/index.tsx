@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <SafeAreaView style={styles.container}>
       <ThemedText variant="headline" color="graywhite">NBA YA MBINZA</ThemedText>
-      <Link href={{pathname : "/patedex/[id]" , params : {id : "3"}}}>Go to Players</Link>
+      <Link href={{pathname : "/patedex/[id]" , params : {id : "3"}}}>Go to Players</Link> {/** Link vers la page des joueurs 3 */} 
     </SafeAreaView>
   );
 }
@@ -17,16 +17,3 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: { backgroundColor: "#ff3c00ff" , flex : 0 },
 });
-
-/**
- * 
- * import { Stack } from "expo-router";
-
-export default function RootLayout() {
-  return <Stack 
-    screenOptions={{
-      headerShown: false
-    }}
-  />;
-}
- */
